@@ -1,0 +1,21 @@
+#include<stdio.h>
+#include<conio.h>
+#include<math.h>
+int main()
+{
+  float p;
+  float r;
+  float t;
+  float ci;
+clrscr();
+printf("enter the value of p =");
+scanf("%f",p);
+printf("enter the value of r =");
+scanf("%f",r);
+printf("enter the value of t =");
+scanf("%f",t);
+ci =p*(pow(1+r/100.,t)-1);
+printf("Compound Interest =%f",ci);
+getch();
+return 0;
+}
